@@ -1,0 +1,10 @@
+<div class="text-container">
+    <h1 style="color: #fff; text-align: center">Khodam <%= nama %></h1>
+    <h1 style="color: #fff; text-align: center">adalah</h1>
+    <br />
+    <h1 style="color: #fff; text-align: center"><%= khodam %></h1>
+    <br /><br />
+    <a href="/">
+        <button type="button" class="submit-btn">Check Lagi!!!</button>
+    </a>
+</div>

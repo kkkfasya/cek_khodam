@@ -1,0 +1,19 @@
+<div class="form-container">
+    <form action="" method="GET">
+        <h1 style="color: #fff">Check Khodam</h1>
+        <div class="input-box">
+            <i class="bx bxs-user-circle"></i>
+            <input
+                type="text"
+                name="nama"
+                placeholder="Masukkan nama kamu"
+                autocomplete="off"
+                required
+            />
+        </div>
+        <br />
+        <br />
+        <br />
+        <button type="submit" class="submit-btn" value="submit">Check</button>
+    </form>
+</div>

@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.form-container {
+    width: 420px;
+    height: 430px;
+    border-radius: 10px;
+    padding: 30px 40px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 200px rgba(0, 0, 0, 0.2);
+}
+
+.form-container h1 {
+    font-size: 36px;
+    text-align: center;
+}
+.input-box {
+    position: relative;
+    width: 100%;
+    height: 50%;
+    margin: 30px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid rgba(4, 23, 85, 0.473);
+    outline: none;
+    border-radius: 20px;
+    padding: 20px 45px 20px 20px;
+    color: #fff;
+}
+
+.input-box input::placeholder {
+    color: #fff;
+    text-align: center;
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.submit-btn {
+    width: 100%;
+    height: 45px;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(4, 29, 109);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    color: #4797ff;
+}
+
+/* BUG: Somehow doesn't fucking work in my firefox broweser but it does in chrome
+.text-msg {
+    color: #fff;
+}
+*/
+
+/* Background */
+body {
+    background: linear-gradient(175deg, #9334dd, #531d7e, #1d5a7e, #8baec2);
+    background-size: 240% 240%;
+    animation: gradient-animation 24s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
