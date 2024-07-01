@@ -1,0 +1,5 @@
+logs/
+remove
+*.compiled
+*.lua
+*_temp
